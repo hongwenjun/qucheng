@@ -1,6 +1,16 @@
-## 关于渠成
+## 渠成开源社 [`Demo中心-code-server`](https://www.qucheng.cc/app/code-server.html)
+- https://www.qucheng.cc/app/code-server.html
+
+### 快速部署命令
+```
+git clone https://github.com/hongwenjun/qucheng.git
+source ./qucheng/install.sh
+```
+
+## 关于渠成   
 <details>
 <summary>点击展开内容</summary>
+
 ### 渠成开源社区介绍
 
 渠成开源社区由禅道项目管理软件团队发起，社区的经营主体为青岛渠成开源计算机网络技术研究中心，是从事非营利性社会服务活动的社会组织。
@@ -53,7 +63,7 @@ source envsetup.sh
 
 - 添加环境变量
 ```
-export PATH="$PATH:~/workspace/duo-examples/duo-sdk/riscv64-linux-musl-x86_64/bin"
+export PATH="$PATH:/config/workspace/duo-examples/duo-sdk/riscv64-linux-musl-x86_64/bin"
 alias gcc=riscv64-unknown-linux-musl-gcc
 alias objdump=riscv64-unknown-linux-musl-objdump
 ```
